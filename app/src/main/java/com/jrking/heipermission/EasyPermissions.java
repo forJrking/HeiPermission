@@ -168,8 +168,9 @@ public class EasyPermissions {
         }
 
         // If 100% successful, call annotated methods
-        if (!granted.isEmpty() && denied.isEmpty()) {
-            ((PermissionCallbacks) object).onPermissionsAllGranted();
+         if (!granted.isEmpty() && denied.isEmpty()) {
+            if (object instanceof PermissionCallbacks)
+                ((PermissionCallbacks) object).onPermissionsAllGranted();
         }
     }
 
