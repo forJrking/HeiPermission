@@ -2,11 +2,17 @@
 
 Android M 动态权限解决方案，Let You Fly！
 
-## 动态图（相信你会 Star的）
+[**Demo_APK下载**](img/app-debug.apk)
+
+## gif图（相信你会 Star的）
+
 
 ![](img/1.gif)
 
-## Sample
+## 使用方式
+
+1.	导入permlib到Project中，app添加库依赖。（建议拷贝源码，可根据需求定制）
+2.	下面列出简单的使用方法
 
 Activity中：
 
