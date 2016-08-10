@@ -1,12 +1,14 @@
 package com.jrking.heipermission;
 
 import android.Manifest;
-import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v7.widget.AppCompatButton;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import hei.permission.PermissionActivity;
 
 /**
  * A placeholder fragment containing a simple view.

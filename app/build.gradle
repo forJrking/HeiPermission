@@ -20,7 +20,9 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //Snackbar 依赖库可以删除
     compile 'com.android.support:design:23.4.0'
+    //权限封装 lib
+    compile project(':permlib')
 }

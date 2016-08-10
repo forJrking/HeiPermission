@@ -8,6 +8,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.FrameLayout;
 
+import hei.permission.PermissionActivity;
+
 public class MainActivity extends PermissionActivity implements View.OnClickListener {
 
     private AppCompatButton mBtnCam, mBtnFra;
@@ -16,6 +18,8 @@ public class MainActivity extends PermissionActivity implements View.OnClickList
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        initStatusBar("#303F9F");//状态栏变色
+
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
