@@ -4,8 +4,7 @@ Android M 动态权限解决方案，Let You Fly！
 
 [**Demo_APK下载**](img/app-debug.apk)
 
-## gif图（相信你会 Star的）
-
+## 动图（相信你会Star的）
 
 ![](img/1.gif)
 
