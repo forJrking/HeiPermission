@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\JrkingApp\HeiPermission\permlib\src\main\assets"/><source path="D:\JrkingApp\HeiPermission\permlib\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="D:\JrkingApp\HeiPermission\permlib\src\release\assets"/></dataSet></merger>
