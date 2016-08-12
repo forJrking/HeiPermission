@@ -11,7 +11,16 @@ Android M 动态权限解决方案，Let You Fly！
 ## 使用方式
 
 1.	导入permlib到Project中，app添加库依赖。（建议拷贝源码，可根据需求定制）
-2.	下面列出简单的使用方法
+2.	奇淫技巧:
+	
+		checkPermission(CheckPermListener listener, int resString, String... mPerms)
+
+			- listener：	权限全部通过接口回调，只检测没有后续行为可 null
+			- resString：	权限用途的说明提示（引导用户开启权限）
+			- mPerms：	申请的高危权限组（可同时申请多个）
+
+
+3.	下面列出简单的使用方法
 
 Activity中：
 
@@ -22,7 +31,9 @@ Activity中：
                     public void superPermission() {
                        TODO : 需要权限去完成的功能
                     }
-                },R.string.camera, Manifest.permission.CAMERA);
+                },R.string.camera, 
+                Manifest.permission.CAMERA,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE);
 
 Fragment中：
    
