@@ -114,7 +114,8 @@ public class PermissionActivity extends AppCompatActivity implements
 
     @Override
     public void onPermissionsAllGranted() {
-        mListener.superPermission();//同意了全部权限的回调
+        if (mListener != null)
+            mListener.superPermission();//同意了全部权限的回调
     }
 
     @Override
