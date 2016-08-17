@@ -2,6 +2,9 @@
 
 Android M 动态权限解决方案，Let You Fly！
 
+[![License](https://img.shields.io/badge/license-Apache%202-green.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Hex.pm](https://img.shields.io/hexpm/dt/plug.svg?maxAge=2592000)](https://github.com/forJrking/HeiPermission/blob/master/img/app-debug.apk)
+
 [**Demo_APK下载**](img/app-debug.apk)
 
 ## 动图（相信你会Star的）
