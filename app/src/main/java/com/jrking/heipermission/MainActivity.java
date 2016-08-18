@@ -10,6 +10,7 @@ import android.widget.FrameLayout;
 
 import hei.permission.PermissionActivity;
 
+
 public class MainActivity extends PermissionActivity implements View.OnClickListener {
 
     private AppCompatButton mBtnCam, mBtnFra;
