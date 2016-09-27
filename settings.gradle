@@ -1,2 +1,1 @@
-include ':app'
-include ':permlib'
+include ':app', ':permlib'
